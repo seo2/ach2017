@@ -59,7 +59,7 @@
                                       </li>
 
                                       <li>
-                                        <a href="https://www.google.cl/maps/place/Mall+Arauco+Coronel/@-37.013895,-73.1603369,712m/data=!3m1!1e3!4m13!1m7!3m6!1s0x9669c11972020ecd:0xf2e87d4931e8916e!2sCarlos+Pratt+Gonz%C3%A1lez+901,+Coronel,+Regi%C3%B3n+del+B%C3%ADo+B%C3%ADo!3b1!8m2!3d-37.0145719!4d-73.1580195!3m4!1s0x0:0x9c764d06a239f15f!8m2!3d-37.0136476!4d-73.15997?hl=es" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
+                                        <a href="https://www.google.cl/maps/place/Mall+Arauco+Chill%C3%A1n/@-36.6093579,-72.1020151,17.48z/data=!4m13!1m7!3m6!1s0x96692829f3fb3e99:0x9d80520ffb43d3b6!2zRWwgUm9ibGUgNzcwLCBDaGlsbGFuLCBDaGlsbMOhbiwgUmVnacOzbiBkZWwgQsOtbyBCw61v!3b1!8m2!3d-36.6094189!4d-72.1005552!3m4!1s0x9669282991ce8197:0x573435024cc2e7e6!8m2!3d-36.6097663!4d-72.100657?hl=es" target="_blank"><i class="fa fa-map-marker" aria-hidden="true"></i><?php echo $tit2; ?> </a>
                                       </li>
                                     </ul>
                               </div>
@@ -105,7 +105,7 @@
 				<span class="icon-bar bottom_bar"></span>
 			</button>
 			<div class="logo">
-                <a href="<?php bloginfo('url'); ?>"> Arauco Coronel</a>
+                <a href="<?php bloginfo('url'); ?>"> Arauco Chillán</a>
            	</div> <!-- brand -->
 <!--
             <div id="lang_switcher" class="visible-xs visible-sm">

@@ -25,34 +25,9 @@
             <div class="row">
                 <div class="col-md-12 ">
                      <div class="desc_servicio">
-                         <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src='https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3330.819335987263!2d-70.58139348498179!3d-33.401877280787886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9662cf26243dcc31%3A0xc9aacb64a9fec91!2sParque+Arauco!5e0!3m2!1ses!2scl!4v1498239272187' width='600' height='450' frameborder='0' style='border:0' allowfullscreen></iframe></div>
+                         <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.2998830766473!2d-72.10201509999999!3d-36.609357900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669282991ce8197%3A0x573435024cc2e7e6!2sMall+Arauco+Chill%C3%A1n!5e1!3m2!1ses!2scl!4v1513086665971" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                      </div>
                 </div>
-                  <div class="datos_como_llegar clearfix">
-                              <div class="col-xs-4">
-                                    <img src="<?php bloginfo('template_url'); ?>/assets/img/map_turistik.png" alt="" class="img-responsive center-block">
-                              </div>
-                              <div class="col-xs-8">
-									<?php if(ICL_LANGUAGE_CODE=='en'){ ?>
-									<p>The travelers must wait for Turistik at the indicated time and place.</p>
-									<p>For further information about this service, contact Turistik at <strong>(56- 2) 28201000 </strong>or e-mail:<a href="mailto:contacto@turistik.cl"><strong>contacto@turistik.cl</strong></a></p>
-									<?php }elseif(ICL_LANGUAGE_CODE=='pt-br'){  ?>
-									<p>O passageiro deve esperar no lugar indicado por Turistik na hora.</p>
-									<p>Para maiores informações deste serviço deve-se contatar com Turistik no telefone: <strong>(56- 2) 28201000 </strong>ou pelo e-mail: <a href="mailto:contacto@turistik.cl"><strong>contacto@turistik.cl</strong></a></p>
-									<?php }else{  ?>
-									<p>El pasajero debe esperar en el lugar indicado por Turistik a la hora.</p>
-									<p> Para mayor información de este servicio contactarse con Turistik al <strong>(56- 2) 28201000 </strong>o el e-mail: <a href="mailto:contacto@turistik.cl"><strong>contacto@turistik.cl</strong></a></p>
-									<?php } ?>  
-                              </div>
-                             
-                              <!-- <div class="col-xs-4">
-                                <img src="<?php bloginfo('template_url'); ?>/assets/img/map_transfer.png" alt="" class="img-responsive center-block">
-                              </div>
-                              <div class="col-xs-8">
-                                <p>Parque Arauco Shopping Center pone a su disposición y sin costo el servicio regular de Transfer Gratis, desde y hacia los hoteles. Este servicio recorre los principales hoteles de la cuidad los 365 días del año.</p>
-                                 <p> Para mayor información y detalles nuestros servicios al cliente, ingresa <a href=""><strong>aquí</strong></a></p>
-                              </div> -->
-                          </div>
               </div>
               
           </div> <!-- container -->

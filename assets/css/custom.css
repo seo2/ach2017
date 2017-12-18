@@ -1909,7 +1909,7 @@ nav #navbar .container.menu_container .col-sm-12 .box_newsletter .form_neswslett
 
 /*----*/
 .logotravellersxs { position: absolute; -webkit-transform: translate(-50%, -50%); transform: translate(-50%, -50%); top: 50%; right: -10px; width: 40px; }
-section.top .navbar-header .logo a { display: inline-block; background: url(../img/logo-Arauco-Coronel.svg) no-repeat; }
+section.top .navbar-header .logo a { display: inline-block; background: url(../img/logo-arauco-chillan.svg) no-repeat; }
 
 section.main_content .box .box_slider .item a .caption.tiendas{background-color: rgba(241, 43, 118, 0.3);}
 section.main_content .box .box_slider .item a .caption.entretencion{background-color: rgba(22, 97, 138, 0.3);}
@@ -2035,7 +2035,8 @@ input[type="color"]:focus,
   src: url("../fonts/intrepid-webfont.woff2") format("woff2"), url("../fonts/intrepid-webfont.woff") format("woff");
   font-weight: normal;
   font-style: normal; }
-.row {
+  
+.modal_overlay .row {
   margin-left: -15px;
   margin-right: -15px;
   padding: 0 15px; }
@@ -2043,19 +2044,20 @@ input[type="color"]:focus,
     display: block;
     content: "";
     clear: both; }
-  .row .col-3 {
+.modal_overlay .row .col-3 {
     position: relative;
     min-height: 1px;
     float: left;
     width: 25%; }
-    @media (max-width: 768px) {
-      .row .col-3 {
+
+@media (max-width: 768px) {
+.modal_overlay .row .col-3 {
         position: relative;
         min-height: 1px;
         padding-left: 10px;
         padding-right: 10px;
         width: 100%; } }
-  .row .col-4 {
+.modal_overlay .row .col-4 {
     position: relative;
     min-height: 1px;
     width: 33%;
@@ -2063,23 +2065,23 @@ input[type="color"]:focus,
     padding-left: 10px;
     padding-right: 10px; }
     @media (max-width: 768px) {
-      .row .col-4 {
+.modal_overlay .row .col-4 {
         width: 100%; } }
-  .row .col-9 {
+.modal_overlay .row .col-9 {
     position: relative;
     min-height: 1px;
     width: 75%;
     float: left; }
     @media (max-width: 768px) {
-      .row .col-9 {
+.modal_overlay .row .col-9 {
         width: 100%;
         position: relative;
         min-height: 1px;
         padding-left: 10px;
         padding-right: 10px; } }
-  .row .col-12 {
+.modal_overlay .row .col-12 {
     width: 100%; }
-  .row .col-6 {
+.modal_overlay .row .col-6 {
     position: relative;
     min-height: 1px;
     padding-left: 10px;
@@ -2090,53 +2092,58 @@ input[type="color"]:focus,
         width: 50%; } }
 
 .modal_overlay {
-  position: fixed;
+  position: absolute;
   left: 0;
   top: 0;
   background-color: rgba(0, 0, 0, 0.5);
-  z-index: 2000;
+  z-index: 10;
   height: 100%;
   width: 100%;
   overflow-x: hidden; }
-  .modal_overlay .box_modal {
+
+.modal_overlay .box_modal {
     background-color: #fff;
-    min-height: 670px;
-    padding: 35px 60px;
+    min-height: 740px;
+    padding: 45px 80px;
     position: absolute;
     top: 50%;
     left: 50%;
     -webkit-transform: translate(-50%, -50%);
     transform: translate(-50%, -50%);
-    top: 370px; }
-    .modal_overlay .box_modal::after {
+    top: 420px; }
+    
+.modal_overlay .box_modal::after {
       display: block;
       content: "";
       clear: both; }
-    @media (max-width: 1023px) {
-     	.modal_overlay .box_modal {
-	        padding-left: 20px;
-	        padding-right: 20px;
-	        top: 50%;
-	        height: 90%; 
-		} 
-    }
-
-    @media (min-width: 1024px) {
-		.modal_overlay .box_modal { width: 780px; } 
-    }
-
-    @media (max-width: 1023px) {
+      
+@media (max-width: 1023px) {
     .modal_overlay .box_modal {
-        width: 90%; } }
-	.modal_overlay .box_modal .header_modal {
+        padding-left: 20px;
+        padding-right: 20px;
+        top: 50%;
+        height: 90%; } 
+}
+        
+@media (min-width: 1024px) {
+      .modal_overlay .box_modal {
+        width: 900px; }         
+}
+        
+@media (max-width: 1023px) {
+      .modal_overlay .box_modal {
+        width: 90%; } 
+}
+.modal_overlay .box_modal .header_modal {
       position: relative;
       width: 100%; }
-      .modal_overlay .box_modal .header_modal .logo {
-        background: url(../img/logos_mall/arauco_coronel.svg) no-repeat;
+      
+.modal_overlay .box_modal .header_modal .logo {
+        background: url(../img/logo_modal_chillan.png) no-repeat;
         background-position: center;
         background-size: cover;
-        width: 116px;
-        height: 87px;
+        width: 88px;
+        height: 62px;
         display: block;
         position: absolute;
         top: 50%;
@@ -2144,45 +2151,55 @@ input[type="color"]:focus,
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
         top: 100px; }
-        @media (max-width: 1023px) {
-          .modal_overlay .box_modal .header_modal .logo {
+        
+@media (max-width: 1023px) {
+	.modal_overlay .box_modal .header_modal .logo {
             position: relative;
             top: auto;
             left: auto;
             -webkit-transform: none;
                     transform: none;
             float: none;
-            margin: 0 auto 30px auto; } }
-      .modal_overlay .box_modal .header_modal .img_mall {
-        background: url(../img/img_modal_apo.jpg) no-repeat;
+            margin: 0 auto 30px auto; } 
+}
+            
+.modal_overlay .box_modal .header_modal .img_mall {
+        background: url(../img/img_chillan_modal.png) no-repeat;
         background-position: center;
         background-size: cover;
         width: 100%;
         height: 199px; }
-      .modal_overlay .box_modal .header_modal h2.title_modal {
+        
+.modal_overlay .box_modal .header_modal h2.title_modal {
         font-family: 'bold', arial, helvetica, sans-serif;
         text-transform: uppercase;
         text-align: center;
         margin-top: 30px;
         font-weight: bold;
         margin-bottom: 20px;
-        color: #D94692;
+        color: #0055A1;
         font-size: 30px;
         letter-spacing: 2px; }
-    .modal_overlay .box_modal .box_form {
+        
+.modal_overlay .box_modal .box_form {
       width: 100%;
       border-top: 1px solid #B6B6B6;
-      padding: 30px 10px 0 10px; }
-      .modal_overlay .box_modal .box_form::after {
+      padding: 30px 50px 0 50px; }
+
+.modal_overlay .box_modal .box_form::after {
         display: block;
         content: "";
         clear: both; }
-      @media (max-width: 1023px) {
-        .modal_overlay .box_modal .box_form {
-          padding: 30px 0px 0 0px; } }
-      .modal_overlay .box_modal .box_form form {
+        
+@media (max-width: 1023px) {
+    .modal_overlay .box_modal .box_form {
+          padding: 30px 0px 0 0px; } 
+}
+          
+.modal_overlay .box_modal .box_form form {
         width: 100%; }
-        .modal_overlay .box_modal .box_form form .checkbox, .modal_overlay .box_modal .box_form form .radio {
+        
+.modal_overlay .box_modal .box_form form .checkbox, .modal_overlay .box_modal .box_form form .radio {
           position: relative;
           display: block;
           margin-top: 10px;
@@ -2191,9 +2208,11 @@ input[type="color"]:focus,
           color: black;
           text-transform: uppercase;
           letter-spacing: 3px; }
-          .modal_overlay .box_modal .box_form form .checkbox a, .modal_overlay .box_modal .box_form form .radio a {
+          
+.modal_overlay .box_modal .box_form form .checkbox a, .modal_overlay .box_modal .box_form form .radio a {
             text-decoration: underline; }
-        .modal_overlay .box_modal .box_form form .btn {
+            
+.modal_overlay .box_modal .box_form form .btn {
           display: inline-block;
           padding: 6px 12px;
           margin-bottom: 0;
@@ -2213,7 +2232,8 @@ input[type="color"]:focus,
           background-image: none;
           border: 1px solid transparent;
           border-radius: 4px; }
-        .modal_overlay .box_modal .box_form form .btn-default {
+          
+.modal_overlay .box_modal .box_form form .btn-default {
           color: #333;
           background-color: #fff;
           border-color: #ccc;
@@ -2221,8 +2241,9 @@ input[type="color"]:focus,
           left: 50%;
           -webkit-transform: translate(-50%, 0);
           transform: translate(-50%, 0); }
-        .modal_overlay .box_modal .box_form form .btn_rojo {
-          background-color: #D94692;
+          
+.modal_overlay .box_modal .box_form form .btn_rojo {
+          background-color: #E20027;
           border-radius: 0;
           border: none;
           font-family: 'Flama-Bold', Helvetica, Arial, sans-serif;
@@ -2234,14 +2255,17 @@ input[type="color"]:focus,
           border: 1px solid transparent;
           -webkit-transition: all 0.2s ease-in-out;
           transition: all 0.2s ease-in-out; }
-          .modal_overlay .box_modal .box_form form .btn_rojo:hover {
+          
+.modal_overlay .box_modal .box_form form .btn_rojo:hover {
             background-color: #fff;
-            border-color: #D94692;
-            color: #D94692; }
-        .modal_overlay .box_modal .box_form form .form-group {
+            border-color: black;
+            color: #E20027; }
+            
+.modal_overlay .box_modal .box_form form .form-group {
           width: 100%;
           margin-bottom: 15px; }
-          .modal_overlay .box_modal .box_form form .form-group label {
+          
+.modal_overlay .box_modal .box_form form .form-group label {
             display: inline-block;
             max-width: 100%;
             margin-bottom: 5px;
@@ -2250,7 +2274,8 @@ input[type="color"]:focus,
             font-family: 'Flama', Helvetica, Arial, sans-serif;
             font-size: 12px;
             color: black; }
-          .modal_overlay .box_modal .box_form form .form-group input.form-control, .modal_overlay .box_modal .box_form form .form-group select.form-control {
+            
+.modal_overlay .box_modal .box_form form .form-group input.form-control, .modal_overlay .box_modal .box_form form .form-group select.form-control {
             display: block;
             width: 100%;
             height: 34px;
@@ -2268,20 +2293,21 @@ input[type="color"]:focus,
             transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
             border-radius: 0;
             margin-bottom: 30px; }
-    .modal_overlay .box_modal a {
-      opacity: 1;
-      -webkit-transition: all 0.3s ease-in-out;
-      transition: all 0.3s ease-in-out; }
-      .modal_overlay .box_modal a.close_modal {
-        display: block;
-        background: url(../img/close_modal.png) no-repeat;
-        width: 29px;
-        height: 29px;
-        position: absolute;
-        right: 20px;
-        top: 20px; }
-        .modal_overlay .box_modal a.close_modal:hover {
-          opacity: 0.7;
-          top: 13px; }
+            
+.modal_overlay .box_modal a {
+  opacity: 1;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out; }
+  
+.modal_overlay .box_modal a.close_modal {
+display: block;
+background: url(../img/close_modal.png) no-repeat;
+width: 29px;
+height: 29px;
+position: absolute;
+right: 20px;
+top: 20px; }
 
-
+.modal_overlay .box_modal a.close_modal:hover {
+opacity: 0.7;
+top: 13px; }

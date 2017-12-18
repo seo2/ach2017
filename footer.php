@@ -73,7 +73,7 @@ if(ICL_LANGUAGE_CODE=='en'){
               <li><a href="<?php bloginfo('url'); ?>/terminos-y-condiciones"><?php echo $menu4; ?></a></li>
               <li><a href="http://sistemas.parquearauco.cl/Relatorios/Inicio.aspx" target="_blank"><?php echo $menu5; ?></a></li>
               <li><a href="http://sistemas.parquearauco.cl/Portal" target="_blank"><?php echo $menu6; ?></a></li>
-              <li><a href="<?php bloginfo('url'); ?>/legales-concursos"><?php echo $menu7; ?></a></li>
+<!--               <li><a href="<?php bloginfo('url'); ?>/legales-concursos"><?php echo $menu7; ?></a></li> -->
             </ul>
           </div>
           <div class="col-xs-12 col-sm-6">
@@ -83,10 +83,10 @@ if(ICL_LANGUAGE_CODE=='en'){
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
                   </div>
                   <div class="bullet-content">
-                    <h2>Arauco Coronel</h2>
-                    <p>Carlos Pratt  González 0901<br>
-                    Coronel<br>
-                    <a href="https://www.google.cl/maps/place/Mall+Arauco+Coronel/@-37.013895,-73.1603369,712m/data=!3m1!1e3!4m13!1m7!3m6!1s0x9669c11972020ecd:0xf2e87d4931e8916e!2sCarlos+Pratt+Gonz%C3%A1lez+901,+Coronel,+Regi%C3%B3n+del+B%C3%ADo+B%C3%ADo!3b1!8m2!3d-37.0145719!4d-73.1580195!3m4!1s0x0:0x9c764d06a239f15f!8m2!3d-37.0136476!4d-73.15997?hl=es" class="link_rojo" target="_blank"><?php echo $tit1; ?></a></p>
+                    <h2>Arauco Chillán</h2>
+                    <p>El Roble 770<br>
+                    Chillán<br>
+                    <a href="https://www.google.cl/maps/place/Mall+Arauco+Chill%C3%A1n/@-36.6093579,-72.1020151,17.48z/data=!4m13!1m7!3m6!1s0x96692829f3fb3e99:0x9d80520ffb43d3b6!2zRWwgUm9ibGUgNzcwLCBDaGlsbGFuLCBDaGlsbMOhbiwgUmVnacOzbiBkZWwgQsOtbyBCw61v!3b1!8m2!3d-36.6094189!4d-72.1005552!3m4!1s0x9669282991ce8197:0x573435024cc2e7e6!8m2!3d-36.6097663!4d-72.100657?hl=es" class="link_rojo" target="_blank"><?php echo $tit1; ?></a></p>
                   </div>
                 </li>  
                 <li class="bullet clearfix">
@@ -103,13 +103,17 @@ if(ICL_LANGUAGE_CODE=='en'){
                     <p>SEGUNDA A DOMINGO DAS 10:30H ATÉ AS 21:00H.</p>
 <!--                     <p>DOMINGO E FERIADOS DAS 11:00H ATÉ AS 21:00H.</p> -->
 					<?php }else{  ?>
-                    <h2>horarios</h2>
-                    <p>Lunes a domingo<br>
-	                    Apertura: 10:30hrs. Cierre 21:00 hrs.</p>
-<!--                     <p>domingo y festivos de 11:00 a 21:00 hrs. </p> -->
+                    <h2>horarios Mall</h2>
+                    <p>Lunes a Sábado 10:00 a 21:00.<br>
+	                    Domingo y festivos de 11:00 a 21:00.</p>
+                    <p>Food Court: Abierto hasta las 22:00.</p>
 					<?php } ?> 	                  
                   </div>
                 </li>
+
+
+                
+                
               </ul>
           </div>
             <a href="http://www.parauco.com/" class="btn_inversionistas hvr-float" target="_blank">

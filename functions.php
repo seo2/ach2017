@@ -353,5 +353,20 @@ function is_url_exist($url){
    return $status;
 }
 
+function get_comunas($region){
+	global $wpdb;    
+	$sql = "SELECT comuna_id, comuna_nombre FROM provincia p INNER JOIN comuna c ON p.provincia_id = c.comuna_provincia_id WHERE provincia_region_id = " .$region ." ORDER BY comuna_nombre ASC";
+	
+	$result = $wpdb->get_results($sql);
+	return($result);    
+}
+
+function get_comuna($codigo){
+	global $wpdb;    
+	$sql = $wpdb->get_row("SELECT comuna_id, comuna_nombre from comuna where comuna_id = ".$codigo);
+	$comuna_nombre = $sql->comuna_nombre; // prints "10"
+	return($comuna_nombre);    
+}
+
 
 ?>

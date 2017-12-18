@@ -28,7 +28,7 @@ if(ICL_LANGUAGE_CODE=='en'){
 	$form5 = "motivo del contacto";
 	$form6 = "tipo de servicio";
 	$form7 = "MENSAJE";
-	$form8 = "Me interesa recibir información de actividades, concursos y promociones organizadas y administradas por el sitio web Parque Arauco";
+	$form8 = "Me interesa recibir información de actividades, concursos y promociones organizadas y administradas por el sitio web Arauco Chillán";
 	$form9 = "enviar";
 } ?>  
     <div class="container">

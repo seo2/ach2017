@@ -113,9 +113,9 @@ if(ICL_LANGUAGE_CODE=='en'){
 		    	
 		    }
 		}
-		$title = 'Arauco Coronel | '.$nombre;
+		$title = 'Arauco Chillán | '.$nombre;
 	}else{
-		$title = 'Arauco Coronel | Mucho más que comprar';
+		$title = 'Arauco Chillán | Mucho más que comprar';
 		$imagen = "assets/img/demobgtienda.jpg";
 	} 
 	

@@ -91,7 +91,7 @@ if(ICL_LANGUAGE_CODE=='en'){
                       <div class="row">
                           <div class="col-md-12 ">
                             <div class="desc_servicio">
-                               <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3100.5135258137625!2d-73.1603369!3d-37.013895!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x9c764d06a239f15f!2sMall+Arauco+Coronel!5e1!3m2!1ses!2scl!4v1502153529464" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+                               <style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }</style><div class='embed-container'><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2944.2998830766473!2d-72.10201509999999!3d-36.609357900000006!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9669282991ce8197%3A0x573435024cc2e7e6!2sMall+Arauco+Chill%C3%A1n!5e1!3m2!1ses!2scl!4v1513086665971" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe></div>
                                </div>
                           </div>
                         </div>

@@ -66,7 +66,6 @@ if(ICL_LANGUAGE_CODE=='en'){
           		</section><!-- travellers servicios generales -->
 		  		<section class="travellers_servicios_adicionales clearfix">
 		<?php 
-/*
 			    $detect = new Mobile_Detect();
 			    	 
 				if ($detect->isMobile()) { 
@@ -74,7 +73,6 @@ if(ICL_LANGUAGE_CODE=='en'){
 				}else{ 	 
 				  	include('include-travellers-servicios-adicionales-desktop.php');
 				}
-*/
 		?>
         		</section>
     		</div> <!-- row -->

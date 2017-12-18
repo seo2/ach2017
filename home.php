@@ -119,9 +119,9 @@
 								$e++; 
 						?>    	
                          <div class="item">
-                            <div class="img_slide hidden-xs hidden-sm"  style="background: url(<?php echo get('slider_medio_imagen_desktop',$slider); ?>);"> </div>
+                            <div class="img_slide hidden-xs hidden-sm"  	style="background: url(<?php echo get('slider_medio_imagen_desktop',$slider); ?>);"> </div>
                             <!-- 700 x 400px -->
-                            <div class="img_slide visible-xs visible-sm"  style="background: url(<?php echo get('slider_medio_imagen_mobile',$slider); ?>);"> </div> 
+                            <div class="img_slide visible-xs visible-sm"  	style="background: url(<?php echo get('slider_medio_imagen_mobile',$slider); ?>);"> </div> 
 				  			<div class="caption">
 					  			<?php if(get('slider_medio_texto_1',$slider)){ ?>
                                	<h3><?php echo get('slider_medio_texto_1',$slider); ?></h3>
